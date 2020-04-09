@@ -23,6 +23,7 @@ cd v0.4/
 jupyter-notebook cov-19-training.ipynb      # for training
 # ... or
 jupyter-notebook inference.py
+```
 
 ## Server
 
