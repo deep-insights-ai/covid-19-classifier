@@ -4,11 +4,19 @@ A [fastai2](https://www.fast.ai/) based Covid-19 classifier.
 
 **Homepage**: https://labs.deep-insights.ai
 
+# Summary
+
 This Covid-19-classifier is a Deep Learning based image classifier which is able to categorize lung X-rays as well as CT Scans as either COVID-19, PNEUMONIA (which groups together MERS, viral pneumonia and other diseases), or as NORMAL (non-pathological) lungs scans.
 Our **accuracy is 98.3%**. To the best of our knowledge this beats all previous Covid-19 lung radiology AI classifiers. 
 
-
 Please see the [methodology page](https://labs.deep-insights.ai/methodology.html) for more details how we achieved this high detection rate.
+
+# Accuracy
+
+![accuracy.jpg](static/accuracy.jpg)
+
+![confusion-matrix.png](static/confusion-matrix.png)
+
 
 # Open Source
 
