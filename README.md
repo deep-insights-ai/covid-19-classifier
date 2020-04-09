@@ -13,7 +13,7 @@ Please see the [methodology page](https://labs.deep-insights.ai/methodology.html
 
 # Accuracy
 
-![accuracy.jpg](static/accuracy.jpg)
+![accuracy.png](static/accuracy.png)
 
 ![confusion-matrix.png](static/confusion-matrix.png)
 
