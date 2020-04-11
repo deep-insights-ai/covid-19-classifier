@@ -69,10 +69,10 @@ Run the training notebook:
 ```bash
 cd v0.4/
 jupyter-notebook cov-19-training.ipynb
-
-NOTE: if you want to train a model yourself we heavily recommend you have access to a GPU as this will speed up training times drastically compared to running on the CPU. Sadly currently only nVidia cards allow for easy deep learning on the GPU.
-If you do not have access to a nVidia GPU we recommend a free service like [Kaggle](https://www.kaggle.com/) which gives anyone 30 hours of GPU compute time per week, which is more than enough to train a state of the art image classifier thanks to transfer learning.
 ```
+
+**NOTE**: if you want to train a model yourself we heavily recommend you have access to a GPU as this will speed up training times drastically compared to running on the CPU. Sadly currently only nVidia cards allow for easy deep learning on the GPU.
+If you do not have access to a nVidia GPU we recommend a free service like [Kaggle](https://www.kaggle.com/) which gives anyone 30 hours of GPU compute time per week, which is more than enough to train a state of the art image classifier thanks to transfer learning.
 
 ## Inference (classifying images)
 
