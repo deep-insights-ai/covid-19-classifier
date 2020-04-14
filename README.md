@@ -76,10 +76,7 @@ If you do not have access to a nVidia GPU we recommend a free service like [Kagg
 
 ## Inference (classifying images)
 
-<xxx coming xxx>
+See the [inference](https://github.com/deep-insights-ai/covid-19-classifier/blob/master/v0.4/inference.py) example.
 
 
-## Server
-
-<XXX coming XXX>
 
