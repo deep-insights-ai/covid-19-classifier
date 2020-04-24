@@ -9,7 +9,7 @@
 This is the final model for the paper.
 
 * model is a resnet50, pixelsize 448x448
-* model now achieves the following accuracy, sensitivity and specificity on the validation set:
+* model now achieves the following accuracy, sensitivity and specificity on the **validation set**:
 
 |                | precision     | recall  | f1-score   |
 |----------------|---------------|---------|------------|
@@ -17,7 +17,7 @@ This is the final model for the paper.
 | Non-COVID      | 0.93          | 0.97    | 0.95       |
 
 
-* and on the independent test set:
+* and on the independent **test set**:
 ```
 sensitivity: 84.44%
 specificity: 93.33%
@@ -25,5 +25,13 @@ precision: 92.68%
 negative predictive value: 85.71%
 accuracy: 88.88%
 ```
+
+In absolute numbers this results in:
+
+```
+true positive: 38, true negative: 42
+false positive: 3, false negative: 7
+```
+
 
 The model can be downloaded at https://labs.deep-insights.ai/models/rn50-448px-v0.8-export.pkl. 
