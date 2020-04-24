@@ -11,8 +11,8 @@ This is the final model for the paper.
 * model is a resnet50, pixelsize 448x448
 * model now achieves the following accuracy, sensitivity and specificity on the validation set:
 
-|----------------|---------------|---------|------------|
 |                | precision     | recall  | f1-score   |
+|----------------|---------------|---------|------------|
 | COVID          |   0.96        | 0.92    | 0.94       |
 | Non-COVID      | 0.93          | 0.97    | 0.95       |
 
