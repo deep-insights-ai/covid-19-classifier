@@ -3,7 +3,7 @@
 (please add newer changelog messages to the top of this file)
 
 
-# version 0.8
+# version 0.8  (2020/4/24)
 
 This is the final model for the paper.
 
