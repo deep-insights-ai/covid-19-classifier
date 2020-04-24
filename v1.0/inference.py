@@ -1,12 +1,23 @@
 from fastai2.vision.all import *
 
 # REPLACE THIS MODEL WITH MOST UP TO DATE VERSION
-MODEL = 'rn18-v-0.4-export.pkl'
+MODEL = 'rn50-448px-v0.9-export.pkl'
 
 
-def label_func():
-    """dummy label function: loading model requires it despite never being used"""
-    pass
+def get_lbl(fname):
+    """return the label of given image"""
+    lbl = fname.parent.name
+    if lbl == 'P':
+        return LBL_PATHO
+    elif lbl == 'C':
+        return LBL_COV
+    else:
+        raise ValueError(f'could not extract label from {fname}')
+        
+
+def in_valid(fname):
+    """return True if file in validationset, else False"""
+    return fname.parent.parent.name == 'valid'
 
 
 LEARN = load_learner(MODEL)
