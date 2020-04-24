@@ -1,7 +1,8 @@
 from fastai2.vision.all import *
 
 # REPLACE THIS MODEL WITH MOST UP TO DATE VERSION
-MODEL = 'rn50-448px-v0.9-export.pkl'
+# find the latest version at https://labs.deep-insights.ai/models/latest.pkl
+MODEL = 'latest.pkl'
 
 LBL_PATHO = 'Non-COVID'
 LBL_COV = 'COVID'
