@@ -72,7 +72,7 @@ To install jupyter notebooks please follow the [installation guides](https://jup
 Run the training notebook:
 ```bash
 cd v0.8/
-jupyter-notebook cov-19-training.ipynb
+jupyter-notebook training.ipynb
 ```
 
 **NOTE**: if you want to train a model yourself we heavily recommend you have access to a GPU as this will speed up training times drastically compared to running it on the CPU. Sadly, only nVidia GPUs are currently supported.
