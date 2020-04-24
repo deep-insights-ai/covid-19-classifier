@@ -6,8 +6,8 @@ A [fastai2](https://www.fast.ai/) based Covid-19 classifier.
 
 # Summary
 
-This Covid-19-classifier is a Deep Learning based image classifier which is able to categorize lung CT Scans as either COVID-19, PATHOLOGICAL (which groups together MERS, viral pneumonia and other diseases), or as NORMAL (non-pathological) lungs scans.
-Our **accuracy is 94.5%**. 
+This Covid-19-classifier is a Deep Learning based image classifier which is able to categorize lung CT Scans as either COVID, or Non-COVID (which groups together a range of diseases such as viral pneumonia, bacterial pneumonia, abscess, lipoid pneumonia, idiopathic pulmonary fibrosis, lung cancer and other diseases).
+**The accuracy on our validation set is 94.5%, and on our more difficult testset which contains more hard to distinguish cases the accuracy is 88.9%**. 
 
 Our very latest model can always be downloaded [here](https://labs.deep-insights.ai/models/latest.pkl). 
 
