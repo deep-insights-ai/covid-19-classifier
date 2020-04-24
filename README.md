@@ -15,12 +15,15 @@ Please see the [methodology page](https://labs.deep-insights.ai/methodology.html
 
 # Accuracy
 
+XXX insert sensitivity, specificity etc. XXX
 
 ![accuracy.png](static/accuracy.png)
 
+## Confusion matrix
+
 ![confusion-matrix.png](static/confusion-matrix.png)
 
-## training and validation loss
+## Training and validation loss
 
 ![training-and-validation-loss.png](static/training-and-validation-loss.png)
 
