@@ -2,6 +2,7 @@
 
 (please add newer changelog messages to the top of this file)
 
+(Note that you can always get the latest model at  https://labs.deep-insights.ai/models/latest.pkl).
 
 # version 0.8  (2020/4/24)
 
@@ -18,4 +19,4 @@ negative predictive value: 85.71%
 accuracy: 88.88%
 ```
 
-The model can be downloaded at https://labs.deep-insights.ai/models/rn50-448px-v0.8-export.pkl. Note that you can always get the latest model at  https://labs.deep-insights.ai/models/latest.pkl .
+The model can be downloaded at https://labs.deep-insights.ai/models/rn50-448px-v0.8-export.pkl. 
