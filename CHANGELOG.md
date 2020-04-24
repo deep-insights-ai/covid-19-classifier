@@ -18,4 +18,4 @@ negative predictive value: 85.71%
 accuracy: 88.88%
 ```
 
-The model can be downloaded at https://labs.deep-insights.at/models/rn50-448px-v0.8-export.pkl. Note that you can always get the latest model at  https://labs.deep-insights.at/models/latest.pkl .
+The model can be downloaded at https://labs.deep-insights.ai/models/rn50-448px-v0.8-export.pkl. Note that you can always get the latest model at  https://labs.deep-insights.ai/models/latest.pkl .
