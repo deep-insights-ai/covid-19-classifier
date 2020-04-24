@@ -42,10 +42,10 @@ We believe that this project needs to be open source! Open source allows us to:
 
 ## Prerequisites
 
-required for training as well as inference (classification of images):
+Required for training as well as inference (classification of images):
   * fastai2
 
-if you want to run our jupyter notebook and train the model yourself:
+If you want to run our jupyter notebook and train the model yourself:
   * jupyter notebook
 
 Here is how to get started:
