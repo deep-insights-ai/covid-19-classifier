@@ -20,6 +20,10 @@ Please see the [methodology page](https://labs.deep-insights.ai/methodology.html
 
 ![confusion-matrix.png](static/confusion-matrix.png)
 
+## training and validation loss
+
+![training-and-validation-loss.png](static/training-and-validation-loss.png)
+
 
 # Open Source
 
