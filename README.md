@@ -7,7 +7,7 @@ A [fastai2](https://www.fast.ai/) based Covid-19 classifier.
 # Summary
 
 This Covid-19-classifier is a Deep Learning based image classifier which is able to categorize lung CT Scans as either COVID-19, PATHOLOGICAL (which groups together MERS, viral pneumonia and other diseases), or as NORMAL (non-pathological) lungs scans.
-Our **accuracy is ~ 90%**. In previous runs we achieved up to 98% accuracy, but we decided to tune down the accuracy in favor of gaining stability and sensitivity of the model. Please stay tuned for further improved versions of the model.
+Our **accuracy is 94.5%**. 
 
 Our very latest model can always be downloaded [here](https://labs.deep-insights.ai/models/latest.pkl). 
 
@@ -49,17 +49,18 @@ At the moment of writing (April 2020) the easiest installation method for fastai
 ```bash
 pip install fastai2
 ```
-Later in 2020, with the release of the new [course](https://course.fast.ai/) on [fast.ai](https://www.fast.ai/) the original fastai library will be updated to version 2.
+Later in 2020, with the release of the new [course](https://course.fast.ai/) on [fast.ai](https://www.fast.ai/) the original fastai library will be updated to version 2. We are already using this newer version 2.
 For more information and additional installation instructions (e.g. via conda) please see the github repos for:
 
 [fastai](https://github.com/fastai/fastai)
 
 [fastai version 2](https://github.com/fastai/fastai2)
 
+
 ### Jupyter notebooks
 
-If you only want to use our model for inference you don't need Jupyter notebooks,
-but if you want to play around with our training notebook and train the model yourself, perhaps on your own data
+If you only want to use our model for inference you don't need Jupyter notebooks.
+But if you want to play around with our training notebook and train the model yourself, perhaps on your own data,
 then we recommend to install jupyter notebook for quick experimentations.
 
 To install jupyter notebooks please follow the [installation guides](https://jupyter.org/install) and make sure you are able to run jupyter notebooks.
@@ -70,7 +71,7 @@ To install jupyter notebooks please follow the [installation guides](https://jup
 
 Run the training notebook:
 ```bash
-cd v0.4/
+cd v0.8/
 jupyter-notebook cov-19-training.ipynb
 ```
 
@@ -79,4 +80,4 @@ If you do not have access to a nVidia GPU we recommend a free service like [Kagg
 
 ## Inference (classifying images)
 
-See the [inference](https://github.com/deep-insights-ai/covid-19-classifier/blob/master/v0.4/inference.py) example.
+See the [inference](https://github.com/deep-insights-ai/covid-19-classifier/blob/master/v0.8/inference.py) example.
