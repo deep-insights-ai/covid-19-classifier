@@ -15,7 +15,27 @@ Please see the [methodology page](https://labs.deep-insights.ai/methodology.html
 
 # Accuracy
 
-XXX insert sensitivity, specificity etc. XXX
+```
+VALIDATION SET:
+stats for COVID
+========================================
+sensitivity: 0.918918918918919
+specificity: 0.9660056657223796
+positive predictive value (= precision): 0.9577464788732394
+negative predictive value: 0.9342465753424658
+accuracy: 0.9445300462249615
+```
+
+```
+TEST SET:
+stats for COVID
+========================================
+sensitivity: 0.8444444444444444
+specificity: 0.9333333333333333
+positive predictive value (= precision): 0.926829268292683
+negative predictive value: 0.8571428571428571
+accuracy: 0.8888888888888888
+```
 
 ![accuracy.png](static/accuracy.png)
 
